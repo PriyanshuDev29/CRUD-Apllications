@@ -19,7 +19,7 @@ const URL=process.env.URL;
 
 Connection(URL);
 
-const PORT=8000;
+const PORT=process.env.PORT || 8000;
 
 
 app.listen(PORT, ()=>{
